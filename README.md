@@ -6,7 +6,7 @@ When optimizing in the presence of noise, it is often unclear how long each cand
 
 ```bash
 # 1. Initialize AS-CMA once with the constructor
-as_cma = AS_CMA_ES(E_t, beta, y_hat, N, verbosity);
+as_cma = AS_CMA_ES(E_t, beta, y_hat, N, verbosity)
 
 while True: 
     # 2. Using CMA-ES, get this generation's candidates to evaluate
@@ -22,8 +22,6 @@ while True:
     as_cma.tell_generation_results(candidates, costs)
     cma.tell_generation_results(candidates, costs)
 ```
-Take a look at the demo files (Matlab: `.\matlab\test_AS-CMA-ES.m`, Python: `.\python\test_AS-CMA-ES.py`) for more information. 
-
 
 ## Usage
 To use AS-CMA, we recommend first examining the demo file `.\matlab\test_AS-CMA-ES.m` or `.\python\test_AS-CMA-ES.py`, depending on which language you prefer. There, you can see a barebones implementation of the AS-CMA-ES libary deployed in an optimization loop. For further documentation, see the class definition itself (either `.\matlab\AS-CMA-ES.m` or `.\python\AS-CMA-ES.py`).
