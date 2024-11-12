@@ -1,14 +1,6 @@
 # AS-CMA
 Adaptive Sampling CMA-ES (AS-CMA) is a supplement to the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization algorithm for optimizing in the presence of noise. 
 
-## Table of Contents
-- [AS-CMA](#as-cma)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Usage](#usage)
-- [Contact](#contact)
-- [Citation](#citation)
-
 ## Features
 When optimizing in the presence of noise, it is often unclear how long each candidate should be evaluated due to a speed-accuracy tradeoff: short evaluations enable faster iteration but are more subject to noise, while long evaluations are slower but more accurate. AS-CMA is a way of systematically identifying how long each candidate should be measured to avoid cost estimates that are too imprecise (which misleads the optimizer) or too precise (which wastes time). We have designed AS-CMA-ES so it can slot into existing optimization code without disrupting the existing framework. Pseudocode for the `AS-CMA-ES` library is as follows: 
 
@@ -50,4 +42,4 @@ For questions, suggestions, or issues, please contact me at [rumartin@stanford.e
 Keep an eye out for our manuscript:
 > Russell M. Martin and Steven H. Collins. Expediting CMA-ES optimization in the presence of noise. Submitted to: *IEEE Transactions on Robotics*. 
 
-This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and
+This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and a adaptation of the CMA-ES Matlab algorithm given in [Hansen 2016](https://arxiv.org/abs/1604.00772). 
