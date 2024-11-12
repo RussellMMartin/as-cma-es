@@ -3,7 +3,7 @@ from scipy.interpolate import interp1d
 from scipy.optimize import curve_fit
 """
 AS_CMA_ES is a CLASS to determine the minimum sample time
-such that CMA-ES ordering is still precise. Made for MATLAB R2017b. 
+such that CMA-ES ordering is still precise.  
  
 PARAMETERS REQUIRED FOR SETUP:
 
