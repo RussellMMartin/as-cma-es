@@ -19,8 +19,8 @@ while True:
     costs = evaluate(candidates, sample_times)
 
     # 5. After a generation, update AS-CMA and CMA-ES state variables
-    as_cma.tell_generation_results(paramsThisGen, costsThisGen)
-    cma.tell_generation_results(paramsThisGen, costsThisGen)
+    as_cma.tell_generation_results(candidates, costs)
+    cma.tell_generation_results(candidates, costs)
 ```
 Take a look at the demo files (Matlab: `.\matlab\test_AS-CMA-ES.m`, Python: `.\python\test_AS-CMA-ES.py`) for more information. 
 
@@ -42,4 +42,4 @@ For questions, suggestions, or issues, please contact me at [rumartin@stanford.e
 Keep an eye out for our manuscript:
 > Russell M. Martin and Steven H. Collins. Expediting CMA-ES optimization in the presence of noise. Submitted to: *IEEE Transactions on Robotics*. 
 
-This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and a adaptation of the CMA-ES Matlab algorithm given in [Hansen 2016](https://arxiv.org/abs/1604.00772). 
+This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and an adaptation of the CMA-ES Matlab algorithm given in [Hansen 2016](https://arxiv.org/abs/1604.00772). 
