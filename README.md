@@ -38,6 +38,6 @@ For questions, suggestions, or issues, please contact me at [rumartin@stanford.e
 
 # Citation
 Keep an eye out for our manuscript:
-> Russell M. Martin and Steven H. Collins. Expediting CMA-ES optimization in the presence of noise. Submitted to: *IEEE Transactions on Cybernetics*. 
+> Russell M. Martin and Steven H. Collins. Expediting CMA-ES optimization in the presence of noise. Submitted to: *Evolutionary Computation*. 
 
 This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and an adaptation of the CMA-ES Matlab algorithm given in [Hansen 2016](https://arxiv.org/abs/1604.00772). 
