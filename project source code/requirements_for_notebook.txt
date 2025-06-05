@@ -1,0 +1,128 @@
+ipykernel==6.9.1
+ipykernel._version==6.9.1
+re==2.2.1
+json==2.0.9
+jupyter_client==7.2.2
+jupyter_client._version==7.2.2
+traitlets==5.1.1
+traitlets._version==5.1.1
+logging==0.5.1.2
+zlib==1.0
+zmq==22.3.0
+platform==1.0.8
+zmq.sugar==22.3.0
+zmq.sugar.version==22.3.0
+argparse==1.1
+colorama==0.4.5
+ctypes==1.1.0
+_ctypes==1.1.0
+dateutil==2.8.2
+six==1.16.0
+decimal==1.70
+_decimal==1.70
+jupyter_core==4.10.0
+jupyter_core.version==4.10.0
+entrypoints==0.4
+IPython==7.31.1
+IPython.core.release==7.31.1
+pygments==2.11.2
+decorator==5.1.1
+pickleshare==0.7.5
+backcall==0.2.0
+prompt_toolkit==3.0.20
+wcwidth==0.2.5
+jedi==0.18.1
+parso==0.8.3
+urllib.request==3.7
+setuptools==61.2.0
+setuptools._distutils==3.7.13
+distutils==3.7.13
+setuptools.version==61.2.0
+pkg_resources._vendor.more_itertools==8.12.0
+pkg_resources.extern.more_itertools==8.12.0
+pkg_resources._vendor.appdirs==1.4.3
+pkg_resources.extern.appdirs==1.4.3
+pkg_resources._vendor.packaging==21.3
+pkg_resources._vendor.packaging.__about__==21.3
+pkg_resources.extern.packaging==21.3
+pkg_resources._vendor.pyparsing==2.2.1
+pkg_resources.extern.pyparsing==2.2.1
+setuptools._vendor.packaging==21.3
+setuptools._vendor.packaging.__about__==21.3
+setuptools.extern.packaging==21.3
+setuptools._vendor.ordered_set==3.1
+setuptools.extern.ordered_set==3.1
+setuptools._vendor.more_itertools==8.8.0
+setuptools.extern.more_itertools==8.8.0
+setuptools._vendor.pyparsing==2.2.1
+setuptools.extern.pyparsing==2.2.1
+csv==1.0
+_csv==1.0
+unittest.mock==1.0
+debugpy==1.5.1
+xmlrpc.client==3.7
+http.server==0.6
+socketserver==0.4
+pydevd==2.6.0
+_pydevd_frame_eval.vendored.bytecode==0.13.0.dev
+_pydev_bundle.fsnotify==0.1.5
+ipywidgets==7.6.5
+ipywidgets._version==7.6.5
+ipython_genutils==0.2.0
+ipython_genutils._version==0.2.0
+numpy==1.21.5
+mkl==2.4.0
+numpy.core==1.21.5
+numpy.core._multiarray_umath==3.1
+numpy.lib==1.21.5
+numpy.linalg._umath_linalg==0.1.5
+matplotlib==3.5.1
+packaging==21.3
+packaging.__about__==21.3
+PIL==9.3.0
+PIL._version==9.3.0
+PIL.Image==9.3.0
+defusedxml==0.7.1
+PIL._deprecate==9.3.0
+cffi==1.15.0
+pyparsing==3.0.9
+cycler==0.10.0
+kiwisolver==1.4.4
+kiwisolver._cext==1.4.4
+cmaes==0.8.2
+scipy==1.7.3
+scipy.special.specfun==b'$Revision: $'
+scipy.linalg._fblas==b'$Revision: $'
+scipy.linalg._flapack==b'$Revision: $'
+scipy.linalg._flinalg==b'$Revision: $'
+scipy.interpolate._fitpack== 1.7 
+scipy.interpolate.dfitpack==b'$Revision: $'
+scipy._lib.decorator==4.0.5
+scipy.ndimage==2.0
+scipy.optimize.minpack2==b'$Revision: $'
+scipy.sparse.linalg.isolve._iterative==b'$Revision: $'
+scipy.sparse.linalg.eigen.arpack._arpack==b'$Revision: $'
+scipy.optimize._lbfgsb==b'$Revision: $'
+scipy.optimize._cobyla==b'$Revision: $'
+scipy.optimize._slsqp==b'$Revision: $'
+scipy.optimize._minpack== 1.10 
+scipy.optimize.__nnls==b'$Revision: $'
+scipy.linalg._interpolative==b'$Revision: $'
+scipy.integrate._odepack== 1.9 
+scipy.integrate._quadpack== 1.13 
+scipy.integrate._ode==$Id$
+scipy.integrate.vode==b'$Revision: $'
+scipy.integrate._dop==b'$Revision: $'
+scipy.integrate.lsoda==b'$Revision: $'
+scipy.stats.statlib==b'$Revision: $'
+scipy.stats.mvn==b'$Revision: $'
+pandas==1.3.5
+pytz==2022.1
+numexpr==2.8.3
+bottleneck==1.3.5
+sklearn==0.22.1
+sklearn.base==0.22.1
+sklearn.utils._joblib==1.1.0
+joblib==1.1.0
+joblib.externals.loky==3.0.0
+joblib.externals.cloudpickle==2.0.0
