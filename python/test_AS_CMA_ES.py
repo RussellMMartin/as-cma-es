@@ -4,6 +4,7 @@ from matplotlib.patches import Ellipse
 from cma import CMAEvolutionStrategy
 from AS_CMA_ES import AS_CMA_ES
 from scipy.interpolate import interp1d
+import sys
 
 """
 test_AS_CMA_ES.py is a demonstration of AS-CMA-ES implemented in Python in a single
