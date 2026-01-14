@@ -6,10 +6,10 @@ When optimizing in the presence of noise, it is often unclear how long each cand
 
 ```bash
 # 1. Initialize AS-CMA once with the constructor
-#    E_t: your empirical mapping of measurement time to measurement noise, i.e. {[t_1, ..., t_maxtime], [e_1, ..., e_maxtime]}
+#    E_t: your empirical mapping of measurement time to measurement noise, i.e. {[t_1, ..., t_maxtime], [e_1, ..., e_maxtime]}.
 #    beta: the desired sorting precision hyperparameter. Recommend using beta=1.3.
-#    y_hat: your estimate of [max, min] cost in overall cost landscape, used only for first generation sample time allocation.
-#    N: dimensionality of your search space
+#    y_hat: your estimate of [min, max] cost in overall cost landscape, used only for first generation sample time allocation.
+#    N: dimensionality of your search space.
 as_cma = AS_CMA_ES(E_t, beta, y_hat, N, verbosity)
 
 while True: 
