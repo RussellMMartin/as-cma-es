@@ -1,5 +1,5 @@
 # AS-CMA
-Adaptive Sampling CMA-ES (AS-CMA) is a supplement to the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization algorithm for optimizing in the presence of noise. 
+Adaptive Sampling CMA-ES (AS-CMA) is a supplement to the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization algorithm for optimizing in the presence of noise. It is described in full in [this paper](https://arxiv.org/abs/2601.09594), which is currently in press at *Evoluationary Computation*. This repository provides open-source code to apply AS-CMA to new problems and to reproduce our simulated optimization experiments.
 
 ## Features
 When optimizing in the presence of noise, it is often unclear how long each candidate should be evaluated due to a speed-accuracy tradeoff: short evaluations enable faster iteration but are more subject to noise, while long evaluations are slower but more accurate. AS-CMA is a way of systematically identifying how long each candidate should be measured to avoid cost estimates that are too imprecise (which misleads the optimizer) or too precise (which wastes time). We have designed AS-CMA-ES so it can slot into existing optimization code without disrupting the existing framework. Pseudocode for the `AS-CMA-ES` library is as follows: 
