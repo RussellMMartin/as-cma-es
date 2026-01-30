@@ -1,5 +1,5 @@
 # AS-CMA
-Adaptive Sampling CMA-ES (AS-CMA) is a supplement to the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization algorithm for optimizing in the presence of noise. It is described in full in [this paper](https://arxiv.org/abs/2601.09594), which is currently in press at *Evoluationary Computation*. This repository provides open-source code to apply AS-CMA to new problems and to reproduce our simulated optimization experiments.
+Adaptive Sampling CMA-ES (AS-CMA) is a supplement to the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) optimization algorithm for optimizing in the presence of noise. It is described in full in [this paper](https://arxiv.org/abs/2601.09594), which is published in *Evoluationary Computation* (2026). This repository provides open-source code to apply AS-CMA to new problems and to reproduce our simulated optimization experiments.
 
 ## Features
 When optimizing in the presence of noise, it is often unclear how long each candidate should be evaluated due to a speed-accuracy tradeoff: short evaluations enable faster iteration but are more subject to noise, while long evaluations are slower but more accurate. AS-CMA is a way of systematically identifying how long each candidate should be measured to avoid cost estimates that are too imprecise (which misleads the optimizer) or too precise (which wastes time). We have designed AS-CMA-ES so it can slot into existing optimization code without disrupting the existing framework. Pseudocode for the `AS-CMA-ES` library is as follows: 
@@ -41,7 +41,7 @@ To determine $\mathcal{E}(t)$ empirically, we recommend conducting a handful (ap
 For questions, suggestions, or issues, please contact me at [rumartin@stanford.edu](mailto:rumartin@stanford.edu). 
 
 # Citation
-Keep an eye out for our manuscript:
-> Russell M. Martin and Steven H. Collins. Expediting CMA-ES optimization in the presence of noise. In press at: *Evolutionary Computation*. 
+If this has been helpful to you, please cite our manuscript:
+> Russell M. Martin, Steven H. Collins; Improving CMA-ES convergence speed, efficiency, and reliability in noisy robot optimization problems. *Evolutionary Computation* 2026; doi: https://doi.org/10.1162/EVCO.a.381 
 
 This work uses the CMA-ES optimization algorithm, described in [Hansen 2016](https://arxiv.org/abs/1604.00772). We use the [`pycma`](https://github.com/CMA-ES/pycma?tab=readme-ov-file) package for CMA-ES in Python and an adaptation of the CMA-ES Matlab algorithm given in [Hansen 2016](https://arxiv.org/abs/1604.00772). 
